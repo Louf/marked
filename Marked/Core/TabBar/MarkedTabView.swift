@@ -31,7 +31,7 @@ struct MarkedTabView: View {
                         }
                         .tag(1)
                     
-                    ProfileView()
+                    SettingsView()
                         .tabItem {
                             Image(systemName: selectedTab == 2 ? "gear.circle.fill" : "gear.circle")
                                 .environment(\.symbolVariants, selectedTab == 2 ? .fill : .none)
