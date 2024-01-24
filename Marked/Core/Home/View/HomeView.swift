@@ -29,7 +29,7 @@ struct HomeView: View {
         var filtered: [Bookmark] {
             guard searchText.isEmpty == false else { return searchSet }
             
-            return searchSet.filter { $0.url.lowercased().contains(searchText.lowercased()) }
+            return searchSet.filter { $0.url.lowercased().contains(searchText.lowercased()) || $0.desc.lowercased().contains(searchText.lowercased()) }
         }
         
         NavigationStack {

@@ -24,6 +24,7 @@ struct BookmarkCell: View {
                         Text(stripURL(bookmark.url))
                             .fontWeight(.semibold)
                         Text(bookmark.desc)
+                            .lineLimit(1)
                     }
                 }
                 
