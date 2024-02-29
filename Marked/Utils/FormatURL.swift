@@ -1,10 +1,3 @@
-//
-//  FormatURL.swift
-//  Marked
-//
-//  Created by Louis Farmer on 12/7/23.
-//
-
 import Foundation
 
 func formatURL(_ inputURL: String) -> String {

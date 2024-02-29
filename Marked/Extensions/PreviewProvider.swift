@@ -1,10 +1,3 @@
-//
-//  PreviewProvider.swift
-//  Marked
-//
-//  Created by Louis Farmer on 12/5/23.
-//
-
 import Foundation
 import SwiftUI
 
